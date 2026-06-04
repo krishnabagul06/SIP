@@ -1,0 +1,29 @@
+---> Types of CSS
+1. inline CSS
+2. internal CSS
+3. External CSS
+
+---> Selectors
+---> Types of Selectors
+1. Tag Selectors
+2. id Selectors :- we use using the #ab
+3. class Selectors :- we user using the .boy
+4. Universal Selectors
+5. Group Selectors
+
+---> Descendant Selectors
+
+
+---> CSS units
+---> Types of CSS units
+1. absolute units
+2. Relative units
+
+---> Box model 
+1. content
+2.padding
+3. border
+4. margin
+
+---> Pseudo class
+---> pseudo element 

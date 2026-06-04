@@ -1,0 +1,105 @@
+/* Page Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #9face6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Table Styling */
+table {
+
+    background: white;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    width: 50%;
+    height: 200px;
+}
+
+#a {
+    color: rgb(49, 49, 88);
+    background-color: rgb(203, 228, 235);
+}
+
+th,td{
+            border:1px solid black;
+            padding: 15px;
+        }
+
+.days{
+    color: rgb(49, 49, 88);
+    background-color: rgb(203, 228, 235);
+}
+
+#row{
+    color: rgb(49, 49, 88);
+    background-color: rgb(232, 170, 170);
+}
+
+.c{
+    color: rgb(49, 49, 88);
+    background-color: rgb(191, 183, 181);
+}   
+
+.html{
+    color: rgb(49, 49, 88);
+    background-color: rgb(224, 206, 192);
+}
+.css{
+    color: rgb(49, 49, 88);
+    background-color: rgb(217, 207, 165);
+}
+
+.java{
+    color: rgb(49, 49, 88);
+    background-color: rgb(185, 224, 200);
+}
+
+.webdev{
+    color: rgb(49, 49, 88);
+    background-color: rgb(193, 199, 206);
+}
+
+.hindi{
+    color: rgb(49, 49, 88);
+    background-color: rgb(234, 194, 218);
+}
+
+.os{
+    color: rgb(49, 49, 88);
+    background-color: rgb(163, 239, 167);
+}
+
+.django{
+    color: rgb(49, 49, 88);
+    background-color: rgb(198, 176, 209);
+}
+
+.english{
+    color: rgb(49, 49, 88);
+    background-color: rgb(214, 204, 204);
+}
+
+.go{
+    color: rgb(49, 49, 88);
+    background-color: rgb(192, 202, 209);
+}
+
+.networks{
+    color: rgb(49, 49, 88);
+    background-color: rgb(207, 210, 182);
+}
+
+.data-science{
+    color: rgb(49, 49, 88);
+    background-color: rgb(162, 185, 205);
+}
+
+.python{
+    color: rgb(49, 49, 88);
+    background-color: rgb(192, 239, 204);
+}
