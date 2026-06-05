@@ -1,0 +1,259 @@
+/* UNIVERSAL SELECTOR */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* TAG SELECTOR */
+
+body{
+    font-family:Arial, sans-serif;
+    background:#fafafa;
+}
+
+/* NAVBAR */
+
+.navbar{
+
+    position:fixed;
+
+    top:0;
+    left:0;
+
+    width:100%;
+    height:70px;
+
+    background:white;
+
+    border-bottom:1px solid #ddd;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:0 25px;
+
+    z-index:1000;
+}
+
+.nav-left{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.logo{
+    font-size:45px;
+    font-family:Georgia, serif;
+}
+
+.menu-icon{
+    font-size:20px;
+    cursor:pointer;
+}
+
+.search-box{
+
+    background:#f2f2f2;
+
+    padding:10px 15px;
+
+    border-radius:25px;
+
+    display:flex;
+    align-items:center;
+
+    gap:10px;
+}
+
+.search-box input{
+
+    border:none;
+    background:transparent;
+
+    outline:none;
+
+    width:250px;
+}
+
+.membership{
+    font-size:14px;
+    color:#555;
+}
+
+/* LAYOUT */
+
+.container{
+    display:flex;
+    margin-top:70px;
+}
+
+/* SIDEBAR */
+
+.sidebar{
+
+    width:280px;
+
+    height:100vh;
+
+    position:fixed;
+
+    top:70px;
+    left:0;
+
+    background:white;
+
+    border-right:1px solid #ddd;
+
+    padding:30px;
+}
+
+.sidebar ul{
+    list-style:none;
+}
+
+.sidebar ul li{
+
+    padding:18px 0;
+
+    font: size 20px;
+
+    cursor:pointer;
+}
+
+.sidebar ul li:hover{
+    color:green;
+}
+
+.sidebar hr{
+    margin:25px 0;
+}
+
+.following h3{
+    margin-bottom:15px;
+}
+
+.following p{
+    color:gray;
+    margin-bottom:15px;
+}
+
+.following a{
+    color:#555;
+}
+
+/* CONTENT */
+
+.content{
+
+    margin-left:320px;
+
+    width:100%;
+
+    padding:40px 80px;
+}
+
+.tabs{
+
+    display:flex;
+
+    gap:30px;
+
+    border-bottom:1px solid #ddd;
+
+    margin-bottom:20px;
+
+    padding-bottom:15px;
+}
+
+.active{
+
+    border-bottom:2px solid black;
+
+    padding-bottom:15px;
+}
+
+/* ARTICLE CARD */
+
+.article{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:35px 0;
+
+    border-bottom:1px solid #e5e5e5;
+
+    position:relative;
+}
+
+.article:hover{
+    background:#f9f9f9;
+}
+
+/* DESCENDANT SELECTOR */
+
+.article .author{
+    color:gray;
+}
+
+.article-text{
+    width:70%;
+}
+
+.article h2{
+
+    font-size:25px;
+
+    margin:10px 0;
+}
+
+.description{
+
+    font-size:24px;
+
+    color:#444;
+}
+
+.stats{
+
+    margin-top:20px;
+
+    color:gray;
+}
+
+/* IMAGE */
+
+.article img{
+
+    width:230px;
+
+    height:150px;
+
+    object-fit:cover;
+
+    border-radius:5px;
+}
+
+/* PSEUDO ELEMENT */
+
+.article h2::before{
+    content:"";
+}
+
+/* PSEUDO CLASS */
+
+.article img:hover{
+    transform:scale(1.03);
+}
+
+/* TRANSITION */
+
+.article img{
+    transition:0.3s;
+}

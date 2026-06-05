@@ -1,0 +1,13 @@
+---> Css combinators 
+
+---> CSS Positon 
+There are 5 main positon valuse 
+1. static position 
+2. Relative positon 
+3. absoulute position
+4. fixed position
+5. 
+
+---> Navigation styling
+
+---> Layout
