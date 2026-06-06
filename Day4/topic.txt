@@ -11,3 +11,5 @@ There are 5 main positon valuse
 ---> Navigation styling
 
 ---> Layout
+ 
+Types of Css
