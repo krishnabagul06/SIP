@@ -1,0 +1,28 @@
+---> media Queries
+---> types of media Queries
+
+
+---> Common Breakpoints
+
+------------------------------------
+|   Device      |   Width          |
+------------------------------------
+|               |                  |
+| mobile        | up to 480px      |
+| Tablet        | 481 px - 768 px  |
+| Small Laptop  | 769 px - 1024 px |
+| Desktop       | 1025 px and above|
+-----------------------------------
+
+
+---> CSS Transiction 
+---> Transform properties 
+1. Translate
+2. rotate
+3. scale 
+
+
+---> CSS 3-D Transform 
+---> CSS Animation 
+
+
